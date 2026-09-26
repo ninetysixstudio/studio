@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" id="svg-canvas" width="256" height="184" viewBox="0 0 256 184"><style>
+
+/* ── #lochmara (lochmara) ── */
+@keyframes lochmara--opacity {
+       0% { opacity: 0.0000; }
+      28% { opacity: 0.0000; }
+      32% { opacity: 100.0000; }
+      70% { opacity: 100.0000; }
+      74% { opacity: 0.0000; }
+     100% { opacity: 0.0000; }
+}
+#lochmara {
+  transform-box    : fill-box;
+  transform-origin : 50% 50%;
+  animation        : lochmara--opacity 2.5s linear infinite;
+}
+
+/* ── #red (red) ── */
+@keyframes red--opacity {
+       0% { opacity: 0.0000; }
+      24% { opacity: 0.0000; }
+      28% { opacity: 100.0000; }
+      74% { opacity: 100.0000; }
+      78% { opacity: 0.0000; }
+     100% { opacity: 0.0000; }
+}
+#red {
+  transform-box    : fill-box;
+  transform-origin : 50% 50%;
+  animation        : red--opacity 2.5s linear infinite;
+}
+
+/* ── #blaze_orange (blaze_orange) ── */
+@keyframes blaze_orange--opacity {
+       0% { opacity: 0.0000; }
+      20% { opacity: 0.0000; }
+      24% { opacity: 100.0000; }
+      78% { opacity: 100.0000; }
+      82% { opacity: 0.0000; }
+     100% { opacity: 0.0000; }
+}
+#blaze_orange {
+  transform-box    : fill-box;
+  transform-origin : 50% 50%;
+  animation        : blaze_orange--opacity 2.5s linear infinite;
+}
+
+/* ── #lightning_yellow (lightning_yellow) ── */
+@keyframes lightning_yellow--opacity {
+       0% { opacity: 0.0000; }
+      16% { opacity: 0.0000; }
+      20% { opacity: 1000.0000; }
+      82% { opacity: 1000.0000; }
+      86% { opacity: 0.0000; }
+     100% { opacity: 0.0000; }
+}
+#lightning_yellow {
+  transform-box    : fill-box;
+  transform-origin : 50% 50%;
+  animation        : lightning_yellow--opacity 2.5s linear infinite;
+}
+
+/* ── #malachite (malachite) ── */
+@keyframes malachite--opacity {
+       0% { opacity: 0.0000; }
+      12% { opacity: 0.0000; }
+      16% { opacity: 100.0000; }
+      86% { opacity: 100.0000; }
+      90% { opacity: 0.0000; }
+     100% { opacity: 0.0000; }
+}
+#malachite {
+  transform-box    : fill-box;
+  transform-origin : 50% 50%;
+  animation        : malachite--opacity 2.5s linear infinite;
+}
+
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+<g id="lochmara" style="translate: 0px; rotate: 0deg; scale: 1;"><path xmlns="http://www.w3.org/2000/svg" d="M173 2C179.03 6 183.65 9.9269 192.679 12C202.286 14.2058 222.808 12.7041 233 12C236 12 239 12 239 12C235.985 34 234.894 64 236.904 84C238.914 104 246.955 125 256 138L230 184H217C209.965 167 201.727 144 201.727 121C201.727 102 205.975 83 211 64C203.964 67 187.656 67 187.656 67C187.656 67 168.478 67.069 161.524 59C155.492 52 155.494 47 156.498 37L167 2H173Z" fill="#0492DC" id="path-1" style="translate: 0px; rotate: 0deg; scale: 1;"/><path xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" d="M75 0C93 0 103 14 108 27C113 40 114 55 115 63C120 108 145 144 145 144L116 184H103C97 160 93 102 93 102C93 102 78 115 65 115C51 115 41 108 36 99C31 90 30 80 30 72C30 60 33 43 40 28C47 14 57 0 75 0ZM65 43C51 43 43 50 43 58C43 67 53.5 70 67.5 70C79 70 89 69 96 67C91 54 81 43 65 43Z" fill="#0492DC" id="path-2" style="translate: 0px; rotate: 0deg; scale: 1;"/></g><g id="red" style="translate: 0px; rotate: 0deg; scale: 1;"><path xmlns="http://www.w3.org/2000/svg" d="M167 2C173.03 6 177.65 9.9269 186.679 12C196.286 14.2058 216.808 12.7041 227 12C229 12 233 12 233 12C229.985 34 228.894 64 230.904 84C232.914 104 240.955 125 250 138L224 184H211C203.965 167 195.727 144 195.727 121C195.727 102 199.975 83 205 64C197.964 67 181.656 67 181.656 67C181.656 67 162.478 67.069 155.524 59C149.492 52 149.494 47 150.498 37L161 2H167Z" fill="#F70909" id="path-3" style="translate: 0px; rotate: 0deg; scale: 1;"/><path xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" d="M69 0C87 0 97 14 102 27C107 40 108 55 109 63C114 108 139 144 139 144L110 184H97C91 160 87 102 87 102C87 102 72 115 59 115C45 115 35 108 30 99C25 90 24 80 24 72C24 60 27 43 34 28C41 14 51 0 69 0ZM59 43C45 43 37 50 37 58C37 67 47.5 70 61.5 70C73 70 83 69 90 67C85 54 75 43 59 43Z" fill="#F70909" id="path-4" style="translate: 0px; rotate: 0deg; scale: 1;"/></g><g id="blaze_orange" style="translate: 0px; rotate: 0deg; scale: 1;"><path xmlns="http://www.w3.org/2000/svg" d="M161 2C167.03 6 171.65 9.9269 180.679 12C190.331 14.2163 210.858 12.7042 221 12C223 12 227 12 227 12C223.985 34 222.894 64 224.904 84C226.914 104 234.955 125 244 138L218 184H205C197.965 167 189.727 144 189.727 121C189.727 102 193.975 83 199 64C191.964 67 175.656 67 175.656 67C175.656 67 156.478 67.069 149.524 59C143.492 52 143.494 47 144.498 37L155 2H161Z" fill="#FF6E01" id="path-5" style="translate: 0px; rotate: 0deg; scale: 1;"/><path xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" d="M63 0C81 0 91 14 96 27C101 40 102 55 103 63C108 108 133 144 133 144L104 184H91C85 160 81 102 81 102C81 102 66 115 53 115C39 115 29 108 24 99C19 90 18 80 18 72C18 60 21 43 28 28C35 14 45 0 63 0ZM53 43C39 43 31 50 31 58C31 67 41.5 70 55.5 70C67 70 77 69 84 67C79 54 69 43 53 43Z" fill="#FF6E01" id="path-6" style="translate: 0px; rotate: 0deg; scale: 1;"/></g><g id="lightning_yellow" style="translate: 0px; rotate: 0deg; scale: 1;"><path xmlns="http://www.w3.org/2000/svg" d="M155 2C161.03 6 165.65 9.9269 174.679 12C184.286 14.2058 204.808 12.7041 215 12C218 12 221 12 221 12C217.985 34 216.894 64 218.904 84C220.914 104 228.955 125 238 138L212 184H199C191.965 167 183.727 144 183.727 121C183.727 102 187.975 83 193 64C185.964 67 169.656 67 169.656 67C169.656 67 150.478 67.069 143.524 59C137.492 52 137.494 47 138.498 37L149 2H155Z" fill="#F6BB05" id="path-7" style="translate: 0px; rotate: 0deg; scale: 1;"/><path xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" d="M57 0C75 0 85 14 90 27C95 40 96 55 97 63C102 108 127 144 127 144L98 184H85C79 160 75 102 75 102C75 102 60 115 47 115C33 115 23 108 18 99C13 90 12 80 12 72C12 60 15 43 22 28C29 14 39 0 57 0ZM47 43C33 43 25 50 25 58C25 67 35.5 70 49.5 70C61 70 71 69 78 67C73 54 63 43 47 43Z" fill="#F6BB05" id="path-8" style="translate: 0px; rotate: 0deg; scale: 1;"/></g><g id="malachite" style="translate: 0px; rotate: 0deg; scale: 1;"><path xmlns="http://www.w3.org/2000/svg" d="M149 2C155.03 6 159.65 9.9269 168.679 12C178.286 14.2058 198.808 12.7041 209 12C210 12 215 12 215 12C211.985 34 210.894 64 212.904 84C214.914 104 222.955 125 232 138L206 184H193C185.965 167 177.727 144 177.727 121C177.727 102 181.975 83 187 64C179.964 67 163.656 67 163.656 67C163.656 67 144.478 67.069 137.524 59C131.492 52 131.494 47 132.498 37L143 2H149Z" fill="#07A903" id="path-9" style="translate: 0px; rotate: 0deg; scale: 1;"/><path xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" d="M51 0C69 0 79 14 84 27C89 40 90 55 91 63C96 108 121 144 121 144L92 184H79C73 160 69 102 69 102C69 102 54 115 41 115C27 115 17 108 12 99C7 90 6 80 6 72C6 60 9 43 16 28C23 14 33 0 51 0ZM41 43C27 43 19 50 19 58C19 67 29.5 70 43.5 70C55 70 65 69 72 67C67 54 57 43 41 43Z" fill="#07A903" id="path-10" style="translate: 0px; rotate: 0deg; scale: 1;"/></g><g id="spring_wood" style="translate: 0px; rotate: 0deg; scale: 1;"><path xmlns="http://www.w3.org/2000/svg" d="M143 2C149.03 6 153.65 9.9269 162.679 12C175.745 15 209 12 209 12C205.985 34 204.894 64 206.904 84C208.914 104 216.955 125 226 138L200 184H187C179.965 167 170 144 170 121C170 102 175.975 83 181 64C173.964 67 157.656 67 157.656 67C157.656 67 138.478 67.069 131.524 59C125.492 52 125.494 47 126.498 37L131 8L143 2Z" fill="#F6F4EE" id="path-11" style="translate: 0px; rotate: 0deg; scale: 1;"/><path xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" d="M45 0C63 0 73 14 78 27C83 40 84 55 85 63C90 108 115 144 115 144L86 184H73C67 160 63 102 63 102C63 102 48 115 35 115C21 115 11 108 6 99C1 90 0 80 0 72C0 60 3 43 10 28C17 14 27 0 45 0ZM35 43C21 43 13 50 13 58C13 67 23.5 70 37.5 70C49 70 59 69 66 67C61 54 51 43 35 43Z" fill="#F6F4EE" id="path-12" style="translate: 0px; rotate: 0deg; scale: 1;"/></g></svg>

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" data-lang="ar">
+<head>
+  <meta charset="UTF-8" />
+  <script>document.documentElement.classList.add("js");</script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title data-i18n="meta.roomTitle">الغرفة — ستة وتسعين</title>
+  <meta name="description" content="الغرفة — مساحة شخصية للتفكير بصوت عالٍ وفيديوهات من استوديو ستة وتسعين." data-i18n-content="meta.roomDescription" />
+  <meta name="theme-color" content="#12110e" />
+  <link rel="icon" href="assets/images/favicon-light.png" media="(prefers-color-scheme: light)" />
+  <link rel="icon" href="assets/images/favicon-dark.png" media="(prefers-color-scheme: dark)" />
+  <link rel="stylesheet" href="css/fonts.css" />
+  <link rel="stylesheet" href="css/variables.css" />
+  <link rel="stylesheet" href="css/style.css?v=18" />
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-34Z2C5VE1R"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-34Z2C5VE1R');
+</script>
+
+</head>
+<body class="room-page">
+  <div class="ambient-bg" aria-hidden="true"></div>
+  <audio id="studio96-audio" class="site-audio" src="assets/audio/studio96-music.mp3" preload="auto" autoplay loop></audio>
+  <button class="music-toggle" type="button" data-music-toggle aria-label="تشغيل الموسيقى" aria-pressed="false">
+    <span class="music-toggle__icon music-toggle__icon--play" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><path d="M8 5.5v13l10-6.5-10-6.5Z"></path></svg></span>
+    <span class="music-toggle__icon music-toggle__icon--pause" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><path d="M7 5h3v14H7zM14 5h3v14h-3z"></path></svg></span>
+  </button>
+  <div class="scroll-progress" aria-hidden="true"><span></span></div>
+  <div class="gradual-blur gradual-blur--top" aria-hidden="true">
+    <span class="gradual-blur__layer"></span><span class="gradual-blur__layer"></span>
+    <span class="gradual-blur__layer"></span><span class="gradual-blur__layer"></span>
+    <span class="gradual-blur__layer"></span>
+  </div>
+  <div class="gradual-blur gradual-blur--bottom" aria-hidden="true">
+    <span class="gradual-blur__layer"></span><span class="gradual-blur__layer"></span>
+    <span class="gradual-blur__layer"></span><span class="gradual-blur__layer"></span>
+    <span class="gradual-blur__layer"></span>
+  </div>
+
+  <header class="site-header container reveal">
+    <div class="site-header__left">
+      <a class="site-header__brand" href="index.html#channels" data-i18n="nav.room">الغرفة</a>
+    </div>
+    <a class="site-header__mark" href="index.html#top" aria-label="ستة وتسعين" data-i18n-aria="brand.name"><img class="site-header__logo" src="assets/images/logo-96-studio.svg" alt="ستة وتسعين" data-i18n-alt="brand.name" width="22" height="22" /></a>
+    <div class="site-header__right">
+      <button class="site-header__lang" type="button" data-lang-toggle aria-label="تغيير اللغة" data-i18n-aria="nav.languageToggle"><span data-lang-label>EN</span></button>
+      <span class="site-header__dash" aria-hidden="true">—</span>
+      <a class="site-header__contact" href="#contact" data-i18n="nav.contact">للتواصل</a>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="room-hero container">
+      <div class="room-hero__meta reveal">
+        <span class="room-section__index" data-num="01">٠١</span>
+        <span data-i18n="room.personalSpace">مساحة شخصية للكتابة والتفكير بصوت عال</span>
+      </div>
+      <div class="room-hero__content">
+        <div>
+          <img class="room-hero__title room-hero__title--logo reveal" src="assets/images/logo-room.png" data-ar-src="assets/images/logo-room.png" data-en-src="assets/images/logo-room_en.png" alt="الغرفة" data-i18n-alt="nav.room" width="640" height="240" />
+          <p class="room-hero__description reveal" data-i18n="room.description">دي غرفتي، مكاني اللي بكتب فيه، بسجل فيه، وبفكر فيه بصوت عالي. مساحة لكل الأفكار اللي بتيجي في دماغي؛ فلسفة، أدب، علم نفس، حكايات، وتجارب شخصية.</p>
+          <p class="room-hero__signature reveal" data-i18n="home.attribution">— محمد أحمد</p>
+        </div>
+      </div>
+      <a class="hero__scroll reveal" href="#videos"><span data-i18n="room.scroll">انزل</span><span class="hero__scroll-line"></span></a>
+    </section>
+
+    <section class="room-videos container" id="videos" aria-labelledby="videos-heading">
+      <div class="room-section__head reveal">
+        <div class="room-section__title-wrap"><span class="room-section__index" data-num="02">٠٢</span><h2 id="videos-heading" data-i18n="room.videos">فيديوهات</h2></div>
+        <span class="room-section__note" data-i18n="room.fromRoom">من الغرفة</span>
+      </div>
+      <div class="room-video-grid">
+        <article class="room-video-card reveal">
+          <a class="room-video-card__link" href="https://www.youtube.com/@ro96om" target="_blank" rel="noopener noreferrer" aria-label="مشاهدة الفيديو على يوتيوب" data-i18n-aria="room.watchYoutube">
+            <div class="room-video-card__media">
+              <img src="assets/images/limits-of-the-mind.png" data-ar-src="assets/images/limits-of-the-mind.png" data-en-src="assets/images/limits-of-the-mind_en.png" alt="" loading="lazy" decoding="async" />
+            </div>
+          </a>
+        </article>
+      </div>
+    </section>
+
+    <section class="room-quotes container" id="quotes" aria-labelledby="quotes-heading">
+      <div class="room-section__head reveal">
+        <div class="room-section__title-wrap"><span class="room-section__index" data-num="03">٠٣</span><h2 id="quotes-heading" data-i18n="room.writings">كتاباتي</h2></div>
+        <span class="room-section__note" data-i18n="room.fromRoom">من الغرفة</span>
+      </div>
+
+      <div class="quote-grid">
+        <button class="quote-card" type="button" data-quote="0" aria-haspopup="dialog">
+          <span class="quote-card__label" data-i18n="quotes.1.label">٠١ / شجرة معلقة</span>
+          <span class="quote-card__text" data-i18n="quotes.1.preview">كاد الكون ينحت في عتمته، تسلسل البياض أوصاله خفياً، تلاشت النجوم واحدة تلو الأخرى.</span>
+          <span class="quote-card__open" data-i18n="quotes.read">اقرأ الاقتباس</span>
+        </button>
+        <button class="quote-card" type="button" data-quote="1" aria-haspopup="dialog">
+          <span class="quote-card__label" data-i18n="quotes.2.label">٠٢ / شجرة</span>
+          <span class="quote-card__text" data-i18n="quotes.2.preview">العالم شجرة معلقة، فروعها إلى أسفل، يتساقط منها ما استوى.</span>
+          <span class="quote-card__open" data-i18n="quotes.read">اقرأ الاقتباس</span>
+        </button>
+        <button class="quote-card" type="button" data-quote="2" aria-haspopup="dialog">
+          <span class="quote-card__label" data-i18n="quotes.3.label">٠٣ / زهرة</span>
+          <span class="quote-card__text" data-i18n="quotes.3.preview">الفن الذي يُستنشق الآن هو ألم صافٍ لأولئك الذين سبقونا.</span>
+          <span class="quote-card__open" data-i18n="quotes.read">اقرأ الاقتباس</span>
+        </button>
+        <button class="quote-card" type="button" data-quote="3" aria-haspopup="dialog">
+          <span class="quote-card__label" data-i18n="quotes.4.label">٠٤ / هاوية فينسنت</span>
+          <span class="quote-card__text" data-i18n="quotes.4.preview">يومًا ما، اعتقدت فريدا أن فينسنت سيأخذها بالمترو إلى ليلةٍ مليئة بالنجوم، كانت تلك لوحته المفضلة، لكنها تتعدى حدود النجوم، كما رسمها فان جوخ في حالته، فوجد نفسه على هاوية الوقوع في الجحيم، وسقطت إحدى أذنيه، وهذه كانت بداية السقوط.</span>
+          <span class="quote-card__open" data-i18n="quotes.read">اقرأ الاقتباس</span>
+        </button>
+      </div>
+      <div class="room-carousel-indicator" data-carousel-indicator="quotes" aria-hidden="true"></div>
+    </section>
+
+    <div class="divider divider--new reveal" aria-hidden="true"><span></span><img class="divider__icon" src="assets/images/star-animated.svg" alt="" width="124" height="24" /><span></span></div>
+
+    <section class="contact contact--new container" id="contact">
+      <div class="contact__index reveal" data-num="04">٠٤</div>
+      <div class="contact__content">
+        <p class="contact__eyebrow reveal" data-i18n="nav.contact">للتواصل</p>
+        <h2 class="contact__title reveal" data-i18n-html="home.contactTitle">خلــينا<br /><em>نتكـــلم.</em></h2>
+        <p class="contact__description reveal" data-i18n="home.contactDescription">حوار بلا مسافة، لفكرة، تعاون، أو سؤال</p>
+        <a class="btn btn--primary reveal" href="mailto:muoo.ahmmed@gmail.com" data-i18n="home.emailMe">راسلني عبر البريد</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer site-footer--new container reveal">
+    <div class="footer__topline">
+      <span data-i18n="footer.rights">جميع الحقوق محفوظة استوديو ستة وتسعين</span>
+      <span data-i18n="footer.copyright">حقوق النشر © ٢٠٢٦</span>
+    </div>
+    <nav class="footer__social" aria-label="روابط التواصل الاجتماعي" data-i18n-aria="footer.socialAria">
+      <a href="https://www.youtube.com/@ro96om" target="_blank" rel="noopener noreferrer" data-i18n="footer.youtube">يوتيوب</a>
+      <span class="footer__divider-char" aria-hidden="true">/</span>
+      <a href="https://x.com/ro96om" target="_blank" rel="noopener noreferrer" data-i18n="footer.x">إكس</a>
+      <span class="footer__divider-char" aria-hidden="true">/</span>
+      <a href="https://www.linkedin.com/company/ninetysixstudio" target="_blank" rel="noopener noreferrer" data-i18n="footer.linkedin">لينكدإن</a>
+    </nav>
+  </footer>
+
+  <div class="quote-modal" id="quote-modal" role="dialog" aria-modal="true" aria-labelledby="quote-modal-title" hidden>
+    <div class="quote-modal__inner">
+      <button class="quote-modal__close" type="button" data-quote-modal-close aria-label="إغلاق" data-i18n-aria="modal.close" data-i18n="modal.close">إلغاء</button>
+      <span class="quote-modal__label" id="quote-modal-label"></span>
+      <h2 class="quote-modal__title" id="quote-modal-title"></h2>
+      <div class="quote-modal__body" id="quote-modal-body"></div>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/lenis@1.3.26/dist/lenis.min.js"></script>
+  <script src="js/main.js?v=16"></script>
+</body>
+</html>
